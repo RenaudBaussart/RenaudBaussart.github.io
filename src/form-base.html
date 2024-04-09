@@ -7,6 +7,79 @@
 </head>
 <body>
     <main>
+        <form action="" method="get">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /> <br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" required title=""> <br>
+
+        <label for="age">Age (between 1 and 110):</label> 
+        <input type="number" id="age" name="age" min="1" max="110" required> <br>
+
+        <fieldset>
+            <legend>Select your sexe</legend>
+            <div>
+                <input type="checkbox" name="male" id="male">
+                <label for="male">Male</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="female" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="non-binary" id="non-binary">
+                <label for="non-binary">Non Binary</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="undefined" id="undefined">
+                <label for="undefined">undefined</label>
+            </div>
+        </fieldset> <br>
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email" required> <br>
+
+        <label for="address">house number and road name:</label>
+        <input type="text" name="address" id="address" required> <br>
+
+        <label for="postalcode">postal code:</label>
+        <input type="number" name="postalcode" id="postalcode" min="0" max="99999" required title='Only number'> <br>
+
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" minlength="1" required> <br>
+
+        <label for="nationality">Chose you nationality</label>
+        <select name="nationality" id="nationality">
+            <option value="french">French</option>
+            <option value="dutch">Dutch</option>
+            <option value="spanish">Spanish</option>
+            <option value="italian">italian</option>
+        </select> <br>
+
+        <label for="birthdate">Date of Birth</label>
+        <input type="date" name="birthdate" id="birthdate" required> <br>
+
+        <label for="birthcontry">Contry of birth</label>
+        <input type="text" name="birthcontry" id="birthcontry" required> <br>
+
+        <label for="social-security-code">Social security code</label>
+        <input type="number" name="social-security-code" id="social-security-code" max="2999999999999" required> <br>
+
+        <label for="passport">Passport number</label>
+        <input type="text" name="passport" id="passport" maxlength="9" required> <br>
+
+        <label for="passport-delivery">Passport delivery date</label>
+        <input type="date" name="passport-delivery" id="passport-delivery" required> <br>
+
+        <label for="passpoort-validity">Passport Validity date</label>
+        <input type="date" name="passpoort-validity" id="passpoort-validity" required> <br>
+
+        <input type="submit" value="Envoie" />
+        </form>
     </main>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,73 +9,73 @@
     <main>
         <form action="" method="get">
 
-        <label for="name">Name:</label>
+        <label for="name">Votre nom:</label>
         <input type="text" id="name" name="name" required /> <br>
 
-        <label for="surname">Surname:</label>
+        <label for="surname">Votre Nom de famille:</label>
         <input type="text" id="surname" required title=""> <br>
 
-        <label for="age">Age (between 1 and 110):</label> 
+        <label for="age">Age (Entre 1 et 110):</label> 
         <input type="number" id="age" name="age" min="1" max="110" required> <br>
 
         <fieldset>
-            <legend>Select your sexe</legend>
+            <legend>selectionée votre genre</legend>
             <div>
                 <input type="checkbox" name="male" id="male">
-                <label for="male">Male</label>
+                <label for="male">Homme</label>
             </div>
 
             <div>
                 <input type="checkbox" name="female" id="female">
-                <label for="female">Female</label>
+                <label for="female">Femme</label>
             </div>
 
             <div>
                 <input type="checkbox" name="non-binary" id="non-binary">
-                <label for="non-binary">Non Binary</label>
+                <label for="non-binary">Non binaire</label>
             </div>
 
             <div>
                 <input type="checkbox" name="undefined" id="undefined">
-                <label for="undefined">undefined</label>
+                <label for="undefined">Non définie</label>
             </div>
         </fieldset> <br>
-        <label for="email">Email address:</label>
+        <label for="email">Addresse email:</label>
         <input type="email" name="email" id="email" required> <br>
 
-        <label for="address">house number and road name:</label>
+        <label for="address">Numero de maison et nom de rue:</label>
         <input type="text" name="address" id="address" required> <br>
 
-        <label for="postalcode">postal code:</label>
+        <label for="postalcode">code postal:</label>
         <input type="number" name="postalcode" id="postalcode" min="0" max="99999" required title='Only number'> <br>
 
-        <label for="city">City</label>
+        <label for="city">Ville de residence</label>
         <input type="text" name="city" id="city" minlength="1" required> <br>
 
-        <label for="nationality">Chose you nationality</label>
+        <label for="nationality">Entrer de nationalité</label>
         <select name="nationality" id="nationality">
-            <option value="french">French</option>
-            <option value="dutch">Dutch</option>
-            <option value="spanish">Spanish</option>
-            <option value="italian">italian</option>
+            <option value="french">Français</option>
+            <option value="dutch">Allemand</option>
+            <option value="spanish">Espanole</option>
+            <option value="italian">italien</option>
         </select> <br>
 
-        <label for="birthdate">Date of Birth</label>
+        <label for="birthdate">Date de naissance</label>
         <input type="date" name="birthdate" id="birthdate" required> <br>
 
-        <label for="birthcontry">Contry of birth</label>
+        <label for="birthcontry">Pays de naissance</label>
         <input type="text" name="birthcontry" id="birthcontry" required> <br>
 
-        <label for="social-security-code">Social security code</label>
+        <label for="social-security-code">Code securité social</label>
         <input type="number" name="social-security-code" id="social-security-code" max="2999999999999" required> <br>
 
-        <label for="passport">Passport number</label>
+        <label for="passport">Numero de passport</label>
         <input type="text" name="passport" id="passport" maxlength="9" required> <br>
 
-        <label for="passport-delivery">Passport delivery date</label>
+        <label for="passport-delivery">Date de delivrement de passport</label>
         <input type="date" name="passport-delivery" id="passport-delivery" required> <br>
 
-        <label for="passpoort-validity">Passport Validity date</label>
+        <label for="passpoort-validity">Date de validité du passport</label>
         <input type="date" name="passpoort-validity" id="passpoort-validity" required> <br>
 
         <input type="submit" value="Envoie" />
